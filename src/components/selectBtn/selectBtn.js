@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { FiChevronDown } from 'react-icons/fi';
 
 const CustomSelect = ({ options }) => {
+  
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(options[0]);
-
   const toggleDropdown = () => setIsOpen(!isOpen);
   const handleOptionClick = (option) => {
     setSelectedOption(option);
