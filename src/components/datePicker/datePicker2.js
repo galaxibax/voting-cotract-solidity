@@ -46,13 +46,11 @@ const DatePicker2 = (
 
   return (
     <div className={` ${datePickerStyle} absolute z-10 p-[15px] mt-[-30px] w-[29%] overflow-hidden bg-zinc-900 border-[1px] border-[#FFFFFF33] text-white rounded-[10px]`}>
-
       <div className="flex pt-[20px] px-[20px] justify-end">
         <div onClick={complete} className='border-[1px] border-[#FFFFFF33] rounded-[10px] px-6 py-1 hover:cursor-pointer hover:bg-hover-gradient' >
           OK
         </div>
       </div>
-
       <div className='flex justify-between gap-[10px] mt-[10px]'>
         <div className=''>
           <div className="flex items-center justify-between px-[10%] mb-4">

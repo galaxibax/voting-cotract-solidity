@@ -9,7 +9,6 @@
 
 body {
   background-color: black;
-  /* font-family: PP Mori; */
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -48,7 +47,6 @@ input[type="range"]::-webkit-slider-runnable-track {
   background: #0000004D;
   border-radius: 10px;
   padding-left: 15px;
-
 }
 
 ::-webkit-scrollbar-thumb:hover {
