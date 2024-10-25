@@ -1,0 +1,5 @@
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply border-[1px];
+  @apply border-[#FFFFFF33];
+  @apply bg-zinc-900;
+}

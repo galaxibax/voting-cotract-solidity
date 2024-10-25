@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: PP Mori;
+  src: url(../public/font/PPMori-Regular.otf) format("truetype");
+}
+
+body {
+  background-color: black;
+  /* font-family: PP Mori; */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 10px;
+  background: linear-gradient(90deg, #E53D2B 0%, #F98738 20%, #F9D549 40%, #FFFFFF 60%, #2BCCF2 80%, #2847D6 100%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply border-[1px];
+  @apply border-black;
+  @apply bg-black;
+}
+
+::-webkit-scrollbar-track:hover {
+  @apply border-[1px];
+  @apply border-[#FFFFFF33];
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid #FFFFFF80;
+  background: #0000004D;
+  border-radius: 10px;
+  padding-left: 15px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}
